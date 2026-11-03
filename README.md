@@ -14,6 +14,23 @@ Official release repository for **Groupy Pocket** — the offline-first mobile a
 
 ---
 
+## 🌌 What is Groupy?
+
+**Groupy** ([groupy.iriskernel.dev](https://groupy.iriskernel.dev)) is a modern, web-first social music streaming ecosystem and audio platform. Featuring a signature dark elevation contour aesthetic, Groupy integrates ad-free music playback, synchronized real-time lyrics, community playlists, user profiles, and deep listening analytics into a unified browser experience.
+
+### What is Groupy Pocket?
+
+**Groupy Pocket** brings the power of Groupy straight into your pocket as a dedicated native mobile app for Android and iOS:
+
+* 📴 **100% Offline Playback**: Download individual songs, full studio albums, or entire playlists directly to sandboxed local device storage. Listen on flights, road trips, or off-grid areas with zero mobile data usage.
+* 🔄 **Bidirectional Cloud Sync**: Seamlessly links to your `groupy.iriskernel.dev` account. Playlists created on the web synchronize down to your phone, while offline plays in your pocket automatically sync back up to your profile telemetry when connectivity resumes.
+* 🎧 **Native Background Audio & Lockscreen Controls**: Full integration with iOS `MPNowPlayingInfoCenter` and Android foreground media services. Control playback, scrub timelines, view album covers, and navigate previous tracks directly from your lock screen, Dynamic Island, or Bluetooth earbuds.
+* 🎨 **GPU Shader Topography on Mobile**: Hardware-accelerated WebGL shader background featuring living contour lines that react in real-time to your selected accent theme or custom hex color.
+* 📊 **Timeframe Analytics & Daily Tracker**: In-app statistics with instant toggles for **24 Hours**, **7 Days**, **1 Month**, and **1 Year**, plus a day-by-day listening breakdown to track how long you listened each day.
+* 🎵 **Queue & Scrubber Precision**: Dedicated "Add to Queue" modal matching the Groupy website and an ultra-smooth 0.7s debounced slider for pixel-perfect scrubbing.
+
+---
+
 ## 🤖 Android Installation Guide
 
 Installing Groupy Pocket on Android takes less than a minute.
