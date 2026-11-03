@@ -1,16 +1,41 @@
-# Groupy Pocket Releases 🎵📱
+<h1 align="center">Groupy Pocket Releases</h1>
 
-Official release repository for **Groupy Pocket** — the offline-first mobile audio player with real-time synced lyrics, background playback telemetry, GPU topographic shaders, and bidirectional cloud sync with [Groupy](https://groupy.iriskernel.dev).
+<p align="center">
+  <b>Official Release Binaries, Installation Guides, & Updates for iOS and Android</b>
+</p>
+
+<p align="center">
+  <a href="https://groupy.iriskernel.dev"><img src="https://img.shields.io/badge/Groupy%20Web-groupy.iriskernel.dev-38bdf8?style=flat&logo=safari&logoColor=white" alt="Groupy Web"></a>
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-10b981?style=flat" alt="Android and iOS">
+  <img src="https://img.shields.io/badge/Format-APK%20%7C%20IPA-6366f1?style=flat" alt="APK & IPA">
+  <img src="https://img.shields.io/badge/Storage-100%25%20Offline-f59e0b?style=flat" alt="100% Offline">
+  <a href="https://github.com/iriskernel/groupy-pocket-releases/releases"><img src="https://img.shields.io/github/v/release/iriskernel/groupy-pocket-releases?color=ec4899&label=Latest%20Release" alt="Latest Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-3b82f6?style=flat" alt="MIT License"></a>
+</p>
+
+<p align="center">
+  <a href="https://groupy.iriskernel.dev"><b>Website</b></a> ·
+  <a href="#-quick-download"><b>Quick Download</b></a> ·
+  <a href="#-what-is-groupy"><b>What is Groupy?</b></a> ·
+  <a href="#-android-installation-guide"><b>Android Guide</b></a> ·
+  <a href="#-ios-installation-guide"><b>iOS Guide</b></a> ·
+  <a href="#-features-highlight"><b>Features</b></a> ·
+  <a href="https://github.com/iriskernel/groupy-pocket-releases/releases"><b>All Releases</b></a>
+</p>
 
 ---
 
+Official public release repository for **Groupy Pocket** — the offline-first mobile audio player with real-time synced lyrics, background playback telemetry, GPU topographic shaders, and bidirectional cloud sync with [Groupy](https://groupy.iriskernel.dev).
+
+> Free, open-source, offline-first, and privacy-respecting audio engine. Contains zero tracking, zero third-party telemetry, and zero ads: all music streams, downloads, and files remain sandboxed on your device.
+
 ## ⚡ Quick Download
 
-| Platform | File | Direct Link |
-| :--- | :--- | :--- |
-| **Android** | `GroupyPocket.apk` | [**Download Latest APK**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.apk) |
-| **iOS** | `GroupyPocket.ipa` | [**Download Latest IPA**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.ipa) |
-| **All Releases** | Changelogs & Notes | [**Browse All Releases**](https://github.com/iriskernel/groupy-pocket-releases/releases) |
+| Platform | Format | Direct Download | Requirements & Compatibility |
+| :--- | :---: | :--- | :--- |
+| **Android** | `.apk` | [**Download GroupyPocket.apk**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.apk) | Android 8.0 (Oreo) or higher. Direct install, no root required. |
+| **iOS** | `.ipa` | [**Download GroupyPocket.ipa**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.ipa) | iOS 15.0 or higher. Install via SideStore, AltStore, Sideloadly, or TrollStore. |
+| **All Releases** | All | [**Browse All Releases**](https://github.com/iriskernel/groupy-pocket-releases/releases) | Full historical changelogs, build checksums, and update archives. |
 
 ---
 
@@ -38,7 +63,7 @@ Installing Groupy Pocket on Android takes less than a minute.
 ### Step-by-Step Instructions
 
 1. **Download the APK**  
-   Tap [**Download Latest APK**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.apk) on your Android device (in Chrome, Firefox, or any browser).
+   Tap [**Download GroupyPocket.apk**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.apk) on your Android device (in Chrome, Firefox, or any browser).
 
 2. **Open the Downloaded File**  
    Once the download completes, tap the download notification or navigate to your **Downloads** folder in your Files app and tap `GroupyPocket.apk`.
@@ -142,3 +167,4 @@ Groupy Pocket includes an automated in-app update detector:
 
 - **Website**: [groupy.iriskernel.dev](https://groupy.iriskernel.dev)
 - **Releases & Updates**: [github.com/iriskernel/groupy-pocket-releases](https://github.com/iriskernel/groupy-pocket-releases)
+- **Source Repository**: [github.com/iriskernel/groupy-pocket](https://github.com/iriskernel/groupy-pocket)
