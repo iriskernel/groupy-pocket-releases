@@ -1,7 +1,5 @@
-<h1 align="center">Groupy Pocket Releases</h1>
-
 <p align="center">
-  <b>Official Release Binaries, Installation Guides, & Updates for iOS and Android</b>
+  <img src="assets/banner.png" alt="Groupy Pocket Banner" width="100%">
 </p>
 
 <p align="center">
@@ -44,6 +42,10 @@ Official public release repository for **Groupy Pocket** — the offline-first m
 **Groupy** ([groupy.iriskernel.dev](https://groupy.iriskernel.dev)) is a modern, web-first social music streaming ecosystem and audio platform. Featuring a signature dark elevation contour aesthetic, Groupy integrates ad-free music playback, synchronized real-time lyrics, community playlists, user profiles, and deep listening analytics into a unified browser experience.
 
 ### What is Groupy Pocket?
+
+<p align="center">
+  <img src="assets/showcase.png" alt="Groupy Pocket Interface Showcase: Offline Library, Now Playing Scrubber, and Timeframe Analytics" width="100%">
+</p>
 
 **Groupy Pocket** brings the power of Groupy straight into your pocket as a dedicated native mobile app for Android and iOS:
 
