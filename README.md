@@ -23,7 +23,7 @@
 
 ---
 
-Official public release repository for **Groupy Pocket** — the offline-first mobile audio player with real-time synced lyrics, background playback telemetry, GPU topographic shaders, and bidirectional cloud sync with [Groupy](https://groupy.iriskernel.dev).
+Official public release repository for **Groupy Pocket** — the offline-first mobile audio player with real-time synced lyrics, background playback telemetry, GPU shaders, and bidirectional cloud sync with [Groupy](https://groupy.iriskernel.dev).
 
 > Free, open-source, offline-first, and privacy-respecting audio engine. Contains zero tracking, zero third-party telemetry, and zero ads: all music streams, downloads, and files remain sandboxed on your device.
 
