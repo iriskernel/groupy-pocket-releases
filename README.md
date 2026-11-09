@@ -7,166 +7,200 @@
   <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-10b981?style=flat" alt="Android and iOS">
   <img src="https://img.shields.io/badge/Format-APK%20%7C%20IPA-6366f1?style=flat" alt="APK & IPA">
   <img src="https://img.shields.io/badge/Storage-100%25%20Offline-f59e0b?style=flat" alt="100% Offline">
-  <a href="https://github.com/iriskernel/groupy-pocket-releases/releases"><img src="https://img.shields.io/github/v/release/iriskernel/groupy-pocket-releases?color=ec4899&label=Latest%20Release" alt="Latest Release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-3b82f6?style=flat" alt="MIT License"></a>
+  <a href="https://github.com/iriskernel/groupy-pocket-releases/releases/latest"><img src="https://img.shields.io/github/v/release/iriskernel/groupy-pocket-releases?color=ec4899&label=Latest%20Release" alt="Latest Release"></a>
+  <a href="https://github.com/iriskernel/groupy-pocket"><img src="https://img.shields.io/badge/License-MIT-3b82f6?style=flat" alt="MIT License"></a>
 </p>
 
 <p align="center">
-  <a href="https://groupy.iriskernel.dev"><b>Website</b></a> ·
-  <a href="#-quick-download"><b>Quick Download</b></a> ·
-  <a href="#-what-is-groupy"><b>What is Groupy?</b></a> ·
-  <a href="#-android-installation-guide"><b>Android Guide</b></a> ·
-  <a href="#-ios-installation-guide"><b>iOS Guide</b></a> ·
-  <a href="#-features-highlight"><b>Features</b></a> ·
-  <a href="https://github.com/iriskernel/groupy-pocket-releases/releases"><b>All Releases</b></a>
+  <a href="#-quick-download"><b>⚡ Quick Download</b></a> ·
+  <a href="#-android-installation-3-easy-steps"><b>🤖 Android Guide</b></a> ·
+  <a href="#-ios-installation-guide"><b>🍎 iOS Guide</b></a> ·
+  <a href="#-features--whats-new"><b>✨ Features</b></a> ·
+  <a href="#-how-updates-work"><b>🔄 Updates</b></a> ·
+  <a href="#-faq--troubleshooting"><b>❓ FAQ</b></a> ·
+  <a href="https://groupy.iriskernel.dev"><b>🌐 Groupy Web</b></a>
 </p>
 
 ---
 
-Official public release repository for **Groupy Pocket** — the offline-first mobile audio player with real-time synced lyrics, background playback telemetry, GPU shaders, and bidirectional cloud sync with [Groupy](https://groupy.iriskernel.dev).
+### Welcome to Groupy Pocket
 
-> Free, open-source, offline-first, and privacy-respecting audio engine. Contains zero tracking, zero third-party telemetry, and zero ads: all music streams, downloads, and files remain sandboxed on your device.
+**Groupy Pocket** is the official free and offline-first mobile music player for the [Groupy](https://groupy.iriskernel.dev) streaming platform. Download your favorite tracks, full albums, and community playlists directly to your phone, and enjoy seamless offline listening with time-synced lyrics, lockscreen playback controls, fluid topographic shader themes, and bidirectional cloud telemetry sync.
+
+> [!NOTE]
+> **100% Free, Private, and Ad-Free**: Groupy Pocket has zero ads, zero tracking, and zero subscriptions. All downloaded music and library databases live directly inside your phone's sandbox storage.
+
+---
 
 ## ⚡ Quick Download
 
-| Platform | Format | Direct Download | Requirements & Compatibility |
+Download the latest production release (**v0.0.1**) directly below:
+
+| Platform | File Type | Direct Download Link | Compatibility |
 | :--- | :---: | :--- | :--- |
-| **Android** | `.apk` | [**Download GroupyPocket.apk**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.apk) | Android 8.0 (Oreo) or higher. Direct install, no root required. |
-| **iOS** | `.ipa` | [**Download GroupyPocket.ipa**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.ipa) | iOS 15.0 or higher. Install via SideStore, AltStore, Sideloadly, or TrollStore. |
-| **All Releases** | All | [**Browse All Releases**](https://github.com/iriskernel/groupy-pocket-releases/releases) | Full historical changelogs, build checksums, and update archives. |
+| **Android** | `.apk` | [⬇️ **Download GroupyPocket.apk**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.apk) | Android 8.0 (Oreo) or newer · Direct install |
+| **iOS / iPadOS** | `.ipa` | [⬇️ **Download GroupyPocket.ipa**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.ipa) | iOS 15.0 or newer · Sideload via SideStore / AltStore / Sideloadly |
+| **All Releases** | All | [📦 **Browse All Releases & Historical Changelogs**](https://github.com/iriskernel/groupy-pocket-releases/releases) | Standalone checksums, tags, and update notes |
 
 ---
 
-## 🌌 What is Groupy?
+## 🤖 Android Installation (3 Easy Steps)
 
-**Groupy** ([groupy.iriskernel.dev](https://groupy.iriskernel.dev)) is a modern, web-first social music streaming ecosystem and audio platform. Featuring a signature dark elevation contour aesthetic, Groupy integrates ad-free music playback, synchronized real-time lyrics, community playlists, user profiles, and deep listening analytics into a unified browser experience.
-
-### What is Groupy Pocket?
-
-<p align="center">
-  <img src="assets/showcase.png" alt="Groupy Pocket Interface Showcase: Offline Library, Now Playing Scrubber, and Timeframe Analytics" width="100%">
-</p>
-
-**Groupy Pocket** brings the power of Groupy straight into your pocket as a dedicated native mobile app for Android and iOS:
-
-* 📴 **100% Offline Playback**: Download individual songs, full studio albums, or entire playlists directly to sandboxed local device storage. Listen on flights, road trips, or off-grid areas with zero mobile data usage.
-* 🔄 **Bidirectional Cloud Sync**: Seamlessly links to your `groupy.iriskernel.dev` account. Playlists created on the web synchronize down to your phone, while offline plays in your pocket automatically sync back up to your profile telemetry when connectivity resumes.
-* 🎧 **Native Background Audio & Lockscreen Controls**: Full integration with iOS `MPNowPlayingInfoCenter` and Android foreground media services. Control playback, scrub timelines, view album covers, and navigate previous tracks directly from your lock screen, Dynamic Island, or Bluetooth earbuds.
-* 🎨 **GPU Shader Topography on Mobile**: Hardware-accelerated WebGL shader background featuring living contour lines that react in real-time to your selected accent theme or custom hex color.
-* 📊 **Timeframe Analytics & Daily Tracker**: In-app statistics with instant toggles for **24 Hours**, **7 Days**, **1 Month**, and **1 Year**, plus a day-by-day listening breakdown to track how long you listened each day.
-* 🎵 **Queue & Scrubber Precision**: Dedicated "Add to Queue" modal matching the Groupy website and an ultra-smooth 0.7s debounced slider for pixel-perfect scrubbing.
-
----
-
-## 🤖 Android Installation Guide
-
-Installing Groupy Pocket on Android takes less than a minute.
-
-### Step-by-Step Instructions
+Installing on Android takes under a minute with no computer or root required.
 
 1. **Download the APK**  
-   Tap [**Download GroupyPocket.apk**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.apk) on your Android device (in Chrome, Firefox, or any browser).
+   Tap [**Download GroupyPocket.apk**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.apk) on your Android phone using Chrome, Firefox, or Samsung Internet.
 
-2. **Open the Downloaded File**  
-   Once the download completes, tap the download notification or navigate to your **Downloads** folder in your Files app and tap `GroupyPocket.apk`.
+2. **Open & Allow Installation**  
+   Tap the downloaded file from your browser notification or **Downloads** folder.  
+   If your device prompts *"For your security, your phone is not allowed to install unknown apps from this source"*:
+   - Tap **Settings** in the popup.
+   - Switch **Allow from this source** to **ON**.
+   - Tap Back to return to the installer.
 
-3. **Allow Installation from Unknown Sources (First time only)**  
-   If your phone prompts you with *"For your security, your phone is not allowed to install unknown apps from this source"*:
-   - Tap **Settings** in the dialog.
-   - Toggle **Allow from this source** (or "Install unknown apps") to **ON**.
-   - Press the back button to return to the installer.
+3. **Install & Launch**  
+   Tap **Install**, then tap **Open** to start listening!
 
-4. **Install and Launch**  
-   Tap **Install**. Once finished, tap **Open** to launch Groupy Pocket.
-
-> [!NOTE]
-> **Google Play Protect Notice**: If Google Play Protect displays a message stating *"Unrecognized app"*, simply tap **More details** and select **Install anyway**. Groupy Pocket is clean and built directly via automated GitHub Actions CI.
+> [!TIP]
+> **Google Play Protect Notice**: If Play Protect shows *"Unrecognized app"*, tap **More details** and select **Install anyway**. Groupy Pocket is completely open-source and built automatically via clean GitHub Actions CI runners.
 
 ---
 
 ## 🍎 iOS Installation Guide
 
-Because iOS does not allow direct APK-style sideloading without an installer tool, you install `GroupyPocket.ipa` using any standard sideloading utility (SideStore, AltStore, Sideloadly, or TrollStore).
+Because iOS does not allow direct one-tap installs from web browsers without a sideloading utility, you install `GroupyPocket.ipa` using one of the easy methods below.
 
-### Method 1: SideStore (Recommended · Wire-Free on iPhone)
+```mermaid
+flowchart TD
+    A["Choose Sideloading Tool"] --> B["No PC (Direct on iPhone)"]
+    A --> C["With a Computer (Mac / Windows)"]
+    A --> D["Jailbroken / TrollStore"]
+    
+    B --> B1["SideStore (Recommended)"]
+    C --> C1["Sideloadly (Fastest via USB)"]
+    C --> C2["AltStore"]
+    D --> D1["Open directly in TrollStore"]
+    
+    B1 --> E["Trust Developer Certificate in Settings"]
+    C1 --> E
+    C2 --> E
+    E --> F["Launch Groupy Pocket 🎉"]
+```
 
-SideStore allows you to sign and refresh Groupy Pocket directly on your phone using on-device VPN without connecting to a computer.
+### Option 1: SideStore (Recommended · Wire-Free directly on your iPhone)
+*Best for installing and updating apps without needing a computer afterwards.*
 
-1. Download [`GroupyPocket.ipa`](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.ipa) in Safari on your iPhone.
+1. Download [**`GroupyPocket.ipa`**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.ipa) in Safari on your iPhone.
 2. Open the **SideStore** app.
-3. Switch to the **My Apps** tab and tap the **`+`** icon in the upper-left corner.
-4. Select `GroupyPocket.ipa` from your Files / Downloads.
-5. SideStore will sign and install the app. Groupy Pocket will appear on your Home Screen.
+3. Go to the **My Apps** tab and tap the **`+`** icon in the top corner.
+4. Select `GroupyPocket.ipa` from your Downloads folder.
+5. SideStore installs the app directly onto your Home Screen.
 
 ---
 
-### Method 2: AltStore
+### Option 2: Sideloadly (PC or Mac via USB)
+*Best and easiest method if you have a laptop or desktop computer.*
 
-1. Download [`GroupyPocket.ipa`](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.ipa) to your iPhone.
-2. Launch **AltStore** and ensure your computer running AltServer is connected to the same Wi-Fi network.
-3. Tap the **My Apps** tab, then tap the **`+`** icon.
-4. Select the downloaded `GroupyPocket.ipa`.
-5. AltStore will sign and install Groupy Pocket to your Home Screen.
-
----
-
-### Method 3: Sideloadly (PC or Mac)
-
-Sideloadly is the fastest method if you have a Mac or Windows PC.
-
-1. Download and install [Sideloadly](https://sideloadly.io/) on your Mac or Windows computer.
-2. Download [`GroupyPocket.ipa`](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.ipa) to your computer.
-3. Connect your iPhone or iPad to your computer using a USB cable.
-4. Open Sideloadly. Your device should appear under **iDevice**.
-5. Drag and drop `GroupyPocket.ipa` into the IPA icon box in Sideloadly.
-6. Enter your Apple ID email (used strictly by Apple's free developer signing service).
-7. Click **Start**. Sideloadly will package, sign, and install Groupy Pocket onto your device.
+1. Download and open [Sideloadly](https://sideloadly.io/) on your PC or Mac.
+2. Download [**`GroupyPocket.ipa`**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.ipa) to your computer.
+3. Connect your iPhone to your computer via USB cable.
+4. Drag and drop `GroupyPocket.ipa` into the Sideloadly window.
+5. Enter your Apple ID (used strictly by Apple to sign the app for your personal device).
+6. Click **Start**. Sideloadly installs the app in ~30 seconds.
 
 ---
 
-### Method 4: TrollStore (iOS 14.0 – 16.6.1 / 17.0)
+### Option 3: AltStore (PC / Mac + iPhone)
+1. Download [**`GroupyPocket.ipa`**](https://github.com/iriskernel/groupy-pocket-releases/releases/latest/download/GroupyPocket.ipa) on your iPhone.
+2. Open **AltStore**, tap **My Apps**, and tap the **`+`** icon.
+3. Select `GroupyPocket.ipa`. AltStore will sign and install it automatically.
 
-If your device supports TrollStore:
+---
+
+### Option 4: TrollStore (iOS 14.0 – 16.6.1 / 17.0)
+If your device has TrollStore installed:
 1. Download `GroupyPocket.ipa` in Safari.
-2. Tap the share sheet icon and select **Open in TrollStore**.
-3. TrollStore installs Groupy Pocket permanently with no 7-day expiration or app limits.
+2. Tap Share $\rightarrow$ **Open in TrollStore**.
+3. It installs permanently with no certificate expiration!
 
 ---
 
-### ⚠️ Essential iOS Post-Installation Step
-
-The first time you open any sideloaded app on iOS, iOS requires you to trust your free personal developer certificate:
-
-1. Open iPhone **Settings**.
-2. Navigate to **General** > **VPN & Device Management** (or *Device Management*).
-3. Under **Developer App**, tap your Apple ID email address.
+### ⚠️ Essential iOS Step: Trust Developer Certificate
+The first time you install any sideloaded app on iOS, Apple asks you to trust your own certificate:
+1. On your iPhone, open **Settings**.
+2. Tap **General** $\rightarrow$ **VPN & Device Management** (or *Device Management*).
+3. Under **Developer App**, tap your Apple ID email.
 4. Tap **Trust "[Your Apple ID]"** and confirm.
-5. *(iOS 16+ only)*: If prompted, go to **Settings > Privacy & Security > Developer Mode**, toggle it **ON**, and restart your device when prompted.
+5. *(iOS 16+ only)*: If prompted, enable **Settings $\rightarrow$ Privacy & Security $\rightarrow$ Developer Mode** and reboot when requested.
 
 ---
 
-## 🔄 Automatic In-App Updates
+## 📱 Interface Showcase
 
-Groupy Pocket includes an automated in-app update detector:
-* When a new version is released here on GitHub, a popup will automatically appear inside the app notifying you of the update and listing the new changelog highlights.
-* Tap **Download Update** to immediately grab the latest build.
-* You can also manually check for updates at any time by going to **Settings > Check for Updates**.
-
----
-
-## ✨ Features Highlight
-
-- 📴 **100% Offline-First Architecture**: Audio playback, playlist browsing, search, and lyric synchronization operate with zero internet connection.
-- 🎨 **Topographic Contour Shaders**: GPU WebGL terrain shaders with audio reactivity and custom hex color accent theming.
-- 📜 **Real-Time Synced Lyrics**: Apple Music & LRC time-synced lyrics with word-by-word scrolling and lockscreen real-time subtitle telemetry.
-- 📊 **Continuous Listening Statistics**: Accurately tracks playtime, top artists, and songs even when your phone screen is locked or in your pocket.
-- 🔁 **Up Next Queue & Fast Scrubber**: Smooth 0.7s debounced playback seeking and an instant Add-to-Queue library picker matching the Groupy website.
-- ☁️ **Groupy Cloud Synchronization**: Bi-directional profile, badge, and playlist sync with your [Groupy](https://groupy.iriskernel.dev) account.
+<p align="center">
+  <img src="assets/showcase.png" alt="Groupy Pocket Interface Showcase: Offline Library, Now Playing Scrubber, and Timeframe Analytics" width="100%">
+</p>
 
 ---
 
-## 🌐 Community & Support
+## ✨ Features & What's New
 
-- **Website**: [groupy.iriskernel.dev](https://groupy.iriskernel.dev)
-- **Releases & Updates**: [github.com/iriskernel/groupy-pocket-releases](https://github.com/iriskernel/groupy-pocket-releases)
-- **Source Repository**: [github.com/iriskernel/groupy-pocket](https://github.com/iriskernel/groupy-pocket)
+- 📴 **100% Offline Playback**: Save whole albums, single tracks, or complete playlists to your device. Play music on airplanes, road trips, or without internet.
+- ⚡ **Instant Scrubber Seeking**: Zero playback lag when skipping forward or backward in tracks.
+- 🔋 **Battery & GPU Optimized**: Throttled 15 FPS ambient elevation shader with viewport scaling targeting only 1–5% battery consumption per 30 minutes of listening.
+- 🎨 **Topographic Contour Theme Engine**: Living elevation contour lines that pulse to music, customizable with presets and custom hex color accent codes.
+- 📜 **Time-Synced Lyrics**: Line-by-line synced lyrics scrolling with lockscreen playback subtitles.
+- 🎧 **Lockscreen & Remote Controls**: Full support for iOS Dynamic Island, lockscreen scrubbers, and Bluetooth earbud controls (single-tap restart, double-tap skip previous).
+- 📊 **Listening Statistics & Telemetry**: Continuous tracking of total listening minutes, top tracks, and daily breakdown that syncs back to your [Groupy Web](https://groupy.iriskernel.dev) profile.
+- 🗂️ **Smart Offline Erase**: Clear local downloaded audio files while keeping all playlist tracklists and artwork metadata synced.
+- 🏷️ **Accurate Track Labeling**: Preserves live performance tags (`(Live)`) and alternative studio versions.
+
+---
+
+## 🔄 How Updates Work
+
+- **Automatic Notifications**: When a new public version is released, the app displays an update notification with new features and a direct download button.
+- **Manual Check**: You can check for updates anytime in the app under **Settings $\rightarrow$ Check for Updates**.
+- **In-Place Upgrades**: You do not need to uninstall the old app to update! Simply install the new `.apk` or `.ipa` on top of your existing installation, and all your downloaded songs, settings, and playlists will be preserved.
+
+---
+
+## ❓ FAQ & Troubleshooting
+
+<details>
+<summary><b>Is Groupy Pocket free and safe?</b></summary>
+
+Yes! Groupy Pocket is completely open-source, free, and contains no ads or trackers. The binaries are built directly from source code through automated GitHub Actions CI pipelines.
+</details>
+
+<details>
+<summary><b>Will my downloaded songs be deleted if I update the app?</b></summary>
+
+No. Installing an update on Android or iOS retains all your local SQLite databases, downloaded songs, artwork cache, and customized settings.
+</details>
+
+<details>
+<summary><b>Why does Android say "App not installed"?</b></summary>
+
+Make sure you have enough storage space on your device, and ensure you have allowed your browser/file manager to install unknown apps in your phone's Settings.
+</details>
+
+<details>
+<summary><b>Why does iOS sideloading expire after 7 days?</b></summary>
+
+Free Apple Developer accounts have a standard 7-day certificate window. If using **SideStore**, it refreshes automatically over local Wi-Fi without a computer. If using **AltStore** or **Sideloadly**, simply reconnect once a week to refresh the certificate, or use **TrollStore** if your iOS version supports it for permanent installation.
+</details>
+
+<details>
+<summary><b>How do I sync my playlists from the Groupy website?</b></summary>
+
+Log in to your account in Groupy Pocket using the same credentials from [groupy.iriskernel.dev](https://groupy.iriskernel.dev). Your cloud playlists will automatically sync down to your library.
+</details>
+
+---
+
+## 🌐 Links & Resources
+
+- **Official Web Platform**: [groupy.iriskernel.dev](https://groupy.iriskernel.dev)
+- **Releases Repository**: [github.com/iriskernel/groupy-pocket-releases](https://github.com/iriskernel/groupy-pocket-releases)
+- **Source Code Repository**: [github.com/iriskernel/groupy-pocket](https://github.com/iriskernel/groupy-pocket)
